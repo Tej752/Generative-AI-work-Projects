@@ -6,6 +6,9 @@ Generative AI is a type of artificial intelligence technology that can produce v
 
 The technology, it should be noted, is not brand-new. Generative AI was introduced in the 1960s in chatbots. But it was not until 2014, with the introduction of generative adversarial networks, or GANs -- a type of machine learning algorithm -- that generative AI could create convincingly authentic images, videos and audio of real people.
 
+# model = genai.GenerativeModel('gemini-pro')
+# model = genai.GenerativeModel('gemini-pro-vision')
+# model.generate_content
 
 On the one hand, this newfound capability has opened up opportunities that include better movie dubbing and rich educational content. It also unlocked concerns about deepfakes -- digitally forged images or videos -- and harmful cybersecurity attacks on businesses, including nefarious requests that realistically mimic an employee's boss.
 
